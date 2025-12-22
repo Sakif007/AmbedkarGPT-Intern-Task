@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-community
+pypdf
+pymupdf
+sentence-transformers
+chromadb
+python-dotenv
+langchain_openai
+ollama
+rouge-score
+nltk

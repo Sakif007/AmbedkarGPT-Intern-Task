@@ -43,9 +43,9 @@ Additionally, a comparative chunking analysis is conducted to understand the imp
 
 | Chunk Size | Answer Relevance | Faithfulness | ROUGE-L |
 |------|------------------|-------------|--------|
-| Small | 0.538 | **0.614** | 0.276 |
-| Medium | 0.557 | 0.574 | 0.279 |
-| Large | **0.562** | 0.591 | **0.296** |
+| Small | 0.530 | **0.629** | 0.280 |
+| Medium | 0.560 | 0.587 | 0.260 |
+| Large | **0.570** | 0.579 | **0.282** |
 
 #### Observations
 
@@ -64,9 +64,9 @@ Additionally, a comparative chunking analysis is conducted to understand the imp
 
 | Chunk Size | Semantic Cosine | BLEU |
 |------|------------------|------|
-| Small | 0.538 | 0.066 |
-| Medium | 0.557 | 0.068 |
-| Large | **0.562** | **0.079** |
+| Small | 0.530 | 0.058 |
+| Medium | 0.560 | 0.058 |
+| Large | **0.571** | **0.078** |
 
 #### Observations
 

@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "model": "mistral",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "top_k": 3,
+        "num_questions": 25,
+        "chunking_strategies": {
+            "small": {
+                "chunk_size": 250,
+                "chunk_overlap": 50
+            },
+            "medium": {
+                "chunk_size": 550,
+                "chunk_overlap": 100
+            },
+            "large": {
+                "chunk_size": 900,
+                "chunk_overlap": 200
+            }
+        },
+        "generated_at": "2025-12-23T11:00:28.105706"
+    },
+    "results": {
+        "small": {
+            "Hit@K": 0.8,
+            "MRR": 0.7133333333333333,
+            "Precision@K": 0.31999999999999995,
+            "Answer Relevance": 0.5299466741421424,
+            "Faithfulness": 0.6299604521172459,
+            "ROUGE-L": 0.2801348830068297,
+            "Semantic Cosine": 0.5299466741421424,
+            "BLEU": 0.05809723010136888
+        },
+        "medium": {
+            "Hit@K": 0.88,
+            "MRR": 0.7733333333333334,
+            "Precision@K": 0.31999999999999995,
+            "Answer Relevance": 0.5606225763267085,
+            "Faithfulness": 0.5873557738825855,
+            "ROUGE-L": 0.2605125033697087,
+            "Semantic Cosine": 0.5606225763267085,
+            "BLEU": 0.058418334563393286
+        },
+        "large": {
+            "Hit@K": 0.88,
+            "MRR": 0.8133333333333332,
+            "Precision@K": 0.3466666666666666,
+            "Answer Relevance": 0.5706732676356778,
+            "Faithfulness": 0.5797152508445182,
+            "ROUGE-L": 0.2822637246682457,
+            "Semantic Cosine": 0.5706732676356778,
+            "BLEU": 0.07847477140013605
+        }
+    }
+}

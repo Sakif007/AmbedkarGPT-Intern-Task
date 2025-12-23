@@ -51,7 +51,7 @@ Additionally, a comparative chunking analysis is conducted to understand the imp
 
 - Small chunks exhibit slightly higher faithfulness since answers remain closely tied to short retrieved passages.
 - Large chunks generate more **relevant and well-structured answers**, reflected in higher relevance and ROUGE-L scores.
-- Lower ROUGE-L values across all settings indicate frequent paraphrasing, which is expected for generative models.
+- Lower ROUGE-L values across all settings indicate frequent paraphrasing, which means the model is not just copy-pasting the answer from the context document.
 
 ---
 

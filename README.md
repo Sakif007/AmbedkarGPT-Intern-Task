@@ -23,7 +23,7 @@ AmbedkarGPT-Intern-Task/
 ├── app.py                     # Main interactive RAG application
 ├── evaluation.py              # Unified evaluation script (all metrics)
 │
-├── corpus/                    # Source documents (6 Ambedkar texts)
+├── speeches/                    # Source documents (6 Ambedkar texts)
 │   ├── speech1.txt
 │   ├── speech2.txt
 │   ├── speech3.txt

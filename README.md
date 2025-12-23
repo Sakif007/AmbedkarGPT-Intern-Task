@@ -3,7 +3,7 @@ AmbedkarGPT is a Retrieval-Augmented Generation (RAG) pipeline built to answer q
 
 The project combines dense document retrieval, local LLM inference, and rigorous evaluation metrics to analyze both retrieval effectiveness and answer quality.
 
-## Purpose of the Project
+## 🎯 Purpose of the Project
 Large Language Models (LLMs) are powerful but prone to hallucination when answering factual questions.
 Retrieval-Augmented Generation (RAG) mitigates this by grounding model outputs in retrieved source documents.
 
